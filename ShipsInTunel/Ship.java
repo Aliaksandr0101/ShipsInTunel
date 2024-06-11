@@ -5,7 +5,7 @@ public class Ship {
     private int size;
     private int type;
 
-    public Ship(Size size, Type type) {
+    public Ship(int size, int type) {
         this.size = size;
         this.type = type;
     }
@@ -15,7 +15,7 @@ public class Ship {
     }
 
     public boolean countCheck() {
-        if (count >= size.getValue()) {
+        if (count >= size/*.getValue()*/) {
             return false;
         }
         return true;
@@ -25,11 +25,11 @@ public class Ship {
         return count;
     }
 
-    public Type getType() {
+    public int getType() {
         return type;
     }
 
-    public Size getSize() {
+    public int getSize() {
         return size;
     }
 }
