@@ -11,6 +11,7 @@ public class Ship {
     }
 
     public void add(int count) {
+
         this.count += count;
     }
 
