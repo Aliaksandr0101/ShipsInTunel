@@ -1,6 +1,10 @@
 package ShipsInTunel;
 
 public class Ship {
+    public static void main(String[] args) {
+        System.out.println("jnjkn");
+        System.out.println("jnjkn");
+    }
     private int count;
     private int size;
     private int type;
