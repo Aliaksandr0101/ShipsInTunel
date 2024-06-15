@@ -101,7 +101,7 @@ class VirtualPort {
     private static void generateShips() {
         Random random = new Random();
         CargoType[] cargoTypes = CargoType.values();
-        int[] capacities = {10, 50, 100};
+        int[] capacities = {10, 50, 100 };
 
         while (true) {
             CargoType cargoType = cargoTypes[random.nextInt(cargoTypes.length)];
