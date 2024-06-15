@@ -48,9 +48,9 @@ class Ship implements Runnable {
         }
     }
 
-   /* public CargoType getCargoType() {
+    public CargoType getCargoType() {
         return cargoType;
-    }*/
+    }
 
     public int getCapacity() {
         return capacity;
