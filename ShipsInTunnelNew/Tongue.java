@@ -5,5 +5,6 @@ public class Tongue {
         System.out.println();
         System.out.println("hello");
         System.out.println("my friend");
+        System.out.println("my friend");
     }
 }
